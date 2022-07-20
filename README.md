@@ -6,7 +6,7 @@ Implement [`com.epam.rd.autocode.floodfill.FloodFill`](src/main/java/com/epam/rd
 It should return a `FloodFill` instance.
 
 Flood fill means that it takes initial rectangular area containing **land** and **water** cells and imitates flooding it:
-each flood step **water** cell converts neighbor **land** cells (*up*, *left*, *right* and *left*) to **water**.
+each flood step **water** cell converts neighbor **land** cells (*up*, *left*, *right* and *down*) to **water**.
 
 It takes some steps to completely flood an area and after that algorithm stops.
 
