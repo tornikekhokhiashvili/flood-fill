@@ -4,7 +4,7 @@ public interface FloodFill {
     void flood(final String map, final FloodLogger logger);
 
     static FloodFill getInstance() {
-        return Flood.getInstance();
+        return new Fill();
     }
 
     char LAND = '█';
